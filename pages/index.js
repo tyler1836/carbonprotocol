@@ -2,11 +2,11 @@ import { React, useState } from 'react'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import Nav from './components/Nav'
-import Stake from './components/Stake'
-import About from './components/About'
-import Home from './components/Home'
-import SignIn from './components/SignIn'
+import Nav from '../components/Nav'
+import Stake from '../components/Stake'
+import About from '../components/About'
+import Home from '../components/Home'
+import SignIn from '../components/SignIn'
 
 
 export default function App() {

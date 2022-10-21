@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import styles from '../../styles/Home.module.css'
+import styles from '../styles/Home.module.css'
 import Staking from '../assets/stakingABI.json'
 import Moralis from 'moralis'
 import {

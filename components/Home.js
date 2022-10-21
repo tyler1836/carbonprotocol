@@ -1,6 +1,6 @@
 import { React, useState, useEffect } from 'react'
 import BigNumber from 'bignumber.js'
-import styles from '../../styles/Home.module.css'
+import styles from '../styles/Home.module.css'
 import GoerliTokens from '../assets/token-list-goerli.json'
 import Staking from '../assets/stakingABI.json'
 import Token from '../assets/tokenAbi.json'
