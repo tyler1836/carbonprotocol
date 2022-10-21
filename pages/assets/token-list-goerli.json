@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Carbon Voting",
+    "address": "0x177Eb3A03B3DCCB9498999C6Dc10d7101A91eFc9",
+    "symbol": "CVT",
+    "decimals": 4
+  },
+  {
+    "name": "Carbon",
+    "address": "0x2569800Ecb7B94392a6C6e2F41A2c62A23f56878",
+    "symbol": "CT",
+    "decimals": 4
+  },
+  {
+    "name": "Social Carbon Token",
+    "address": "0xC2fa12B16A05cAFA1752db68bb7C8e272C7Bb46E",
+    "symbol": "SOCT",
+    "decimals": 4
+  }
+
+]
