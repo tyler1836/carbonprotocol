@@ -20,10 +20,10 @@ const client = createClient({
 })
 
 
-function MyApp({ Component, pageProps }) {
+function MyApp({ Component, pageProps: {session, ...pageProps} }) {
   return (
     <WagmiConfig client={client}>
-      <SessionProvider session={pageProps.session} refetchInterval={0}>
+      <SessionProvider session={session} basePath="/api/auth/request-message" refetchInterval={0}>
       <RainbowKitProvider chains={chains}>
         <Component {...pageProps} />
       </RainbowKitProvider>
