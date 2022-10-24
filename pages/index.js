@@ -6,7 +6,7 @@ import Nav from '../components/Nav'
 import Stake from '../components/Stake'
 import About from '../components/About'
 import Home from '../components/Home'
-import SignIn from '../components/Signin'
+import SignIn from './Signin'
 
 
 export default function App() {
