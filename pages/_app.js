@@ -8,7 +8,7 @@ import { SessionProvider } from 'next-auth/react'
 import { getDefaultWallets, RainbowKitProvider } from '@rainbow-me/rainbowkit'
 import '@rainbow-me/rainbowkit/styles.css'
 
-const { provider, webSocketProvider, chains } = configureChains(defaultChains, [alchemyProvider({ apiKey: process.env.ALCHEMY_KEY })])
+const { provider, webSocketProvider, chains } = configureChains(defaultChains, [alchemyProvider({ apiKey: "_Vi3HORhL0_plldDN2Ac7VcYy9_dyXdt", priority: 0})])
 
 const {connectors} = getDefaultWallets({
   appName: 'My RainbowKit App',
@@ -22,7 +22,7 @@ const client = createClient({
   connectors
 })
 
-
+console.log(client.provider)
 function MyApp({ Component, pageProps: {session, ...pageProps} }) {
   return (
     <WagmiConfig client={client}>
